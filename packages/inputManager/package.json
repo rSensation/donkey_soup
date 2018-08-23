@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && parcel build src/index.js",
-    "postbuild": "",
     "watch": "npm run build"
   },
   "keywords": [],

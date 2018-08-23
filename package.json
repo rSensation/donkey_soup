@@ -1,8 +1,10 @@
 {
 	"scripts": {
-		"build": "lerna bootstrap && lerna run build"
+		"build": "lerna bootstrap && lerna run build",
+		"watch": "lerna bootstrap && lerna run watch"
 	},
 	"devDependencies": {
-		"lerna": "^2.11.0"
+		"lerna": "^2.11.0",
+		"rimraf": "^2.6.2"
 	}
 }
