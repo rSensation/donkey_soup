@@ -1,0 +1,17 @@
+{
+  "name": "@donkeySoup/inputManager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && parcel build src/index.js",
+    "postbuild": "",
+    "watch": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist/"
+  ]
+}
